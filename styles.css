@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'radio-canada' !important;
+}
+a{
+    text-decoration: none;
+}
+/* start navbar */
+.navbar{
+    font-size: 20px;
+    padding: 1vw 11vw 1vw 11vw;
+}
+
+#logo{
+    height: 60px;
+    width: 60px;
+}
+
+.nav-link{
+    color: #5e5e5e;
+    font-weight: 900;
+    margin: 0 20px 0 20px;
+    opacity: 1;
+}
+.nav-link:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+/* end navbar */
+
+/* start home-section */
+.home-section{
+    margin: 6vw 11vw 6vw 11vw;
+}
+.home{
+    max-width: 50%;
+    margin-top: 30px;
+}
+.home-img{
+    max-width: 50%;
+}
+.home-slogan{
+    font-size: 50px;
+    font-weight: 900;
+    color: #2F2E41;
+}
+
+.home-description{
+    color: #A19797;
+    max-width: 90%;
+    font-size: 20px;
+    margin: 30px 0 40px 0;
+}
+
+.our-service{
+    background: rgb(129,124,208);
+    background: linear-gradient(90deg, rgba(129,124,208,1) 0%, rgba(100,106,207,1) 100%);
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 10px;
+    opacity: 1;
+    font-weight: 900;
+    color: white;
+}
+
+.our-service:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+/* start of development-section */
+
+.development-section{
+    background-color: #F8F8F8;
+    padding: 9vw 11vw 9vw 11vw;
+}
+.development{
+    max-width: 50%;
+    margin: 30px 80px 0 10px;   
+}
+.in-section{
+    color: #6C63FF;
+}
+.development-img{
+    max-width: 50%;
+}
+.development-slogan{
+    color: #2F2E41;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.development-description{
+    color: #A19797;
+    max-width: 90%;
+    font-size: 20px;
+    margin: 30px 0 40px 0;
+}
+.learn-more{
+    color: #6C63FF;
+    font-size: 23px;
+    font-weight: 900;
+    border-radius: 10px;
+    font-family: 'radio-canada' !important;
+    opacity: 1;
+}
+.bi-left{
+    font-size: 25px;
+    margin-right: 5px;
+}
+.learn-more:hover{
+    color: #6C63FF;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+/* end of development-section */
+
+
+
+/* service section for future  */
+.row{
+    margin-top: 8vw;
+}
+.service-section{
+    background-color: #FAFAFA;
+    padding: 1vw 10vw 1vw 10vw;
+}
+
+.in-section{
+    font-size: 15px;
+    font-weight: 500;
+    color: #6C63FF;
+}
+
+.card{
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(48,68,87,1) 0%, rgba(84,108,133,1) 100%);
+}
+.card-body{
+    margin: 10px 20px 10px 20px;
+}
+
+.card-title{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px 0 5px 0;
+    text-transform: capitalize;
+}
+.card-text{
+    font-size: 20px;
+    margin: 20px 0 20px 0;
+}
+.card-links:hover{
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+/* start of footer section  */
+.footer{
+    background-color: #2f2e41e0;
+}
+.footer-img{
+    height: 48px;
+    width: 180px;
+}
+
+.footer-links{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-links:hover{
+    opacity: 1;
+    color: #6C63FF;
+    transition: 0.5s;
+}
+
+.footer-about{
+    max-width: 50%;
+}
+.footer{
+    padding: 7vw 11vw 7vw 11vw;
+}
+.footer-description{
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+    max-width: 70%;
+}
+.bi-bullseye{
+    font-size: 40px;
+}
+
+.footer-sections{
+    margin-left: 80px;
+}
+.footer-section{
+    color: #fff;
+    text-decoration: none;
+    opacity: 1;
+}
+.footer-section:hover{
+    transition: 0.5s;
+}
+.footer-navs{
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.footer-links{
+    font-size: 20px;
+    margin: 15px 0 15px 0;
+}
+.copyright{
+    font-size: 25px;
+    background-color: #2F2E41;
+}
+.copyright-text{
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+.bi-social{
+    font-size: 30px;
+    margin-left: 40px;
+}
+.socials{
+    color: #fff;
+}
+.socials:hover{
+    color: #6C63FF;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+/* end of footer section  */
+
+/* start of development page */
+.development-page{
+    margin: 6vw 11vw 6vw 11vw;
+}
+.development-header{
+    background-color: #D9E9F8;
+}
+.section-title{
+    padding: 6vw 0 9vw 0;
+    font-weight: 900;
+}
+.in-section-welcome{
+    color: #6C63FF;
+    padding-right: 10px;
+    font-weight: 900;
+    border-right: 5px solid #6C63FF;
+}
+.development-check{
+    font-size: 23px;
+    font-weight: 900;
+}
+.bi-check{
+    color: #6C63FF;
+    font-size: 25px;
+}
+/* end of development page  */
+
+/* start of each-service section  */
+.each-service{
+    margin: 6vw 11vw 6vw 11vw;
+}
+/* end of each-service section  */
